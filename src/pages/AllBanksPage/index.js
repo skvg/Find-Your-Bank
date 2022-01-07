@@ -18,6 +18,7 @@ function AllBanksPage() {
   const [ favorites, setFavorites ] = useState([])
   const [ searched, setSearched ] = useState('');
   const [ filter, setFilter ] = useState(TABLE_HEADERS[0])
+  const [ city, setCity ] = useState('JAIPUR')
   const debouncedTerm = useDebounce(searched, 500)
 
   const history = useHistory()
@@ -54,7 +55,7 @@ function AllBanksPage() {
   ]
 
   useEffect(() => {
-    fetchAllBanks('JAIPUR')
+    fetchAllBanks(city)
     fetchFavoritesBanks()
   }, [])
 
@@ -67,6 +68,7 @@ function AllBanksPage() {
     try {
       const banks = await getAllBanks(cityName);
       setLoading(false)
+      setCity(cityName)
       setBanks(banks)
     } catch (error) {
       setLoading(false)
@@ -129,7 +131,7 @@ function AllBanksPage() {
   return (
     <div className='wrapper'>
       <div className='all-banks-header container'>
-        <h3 className="page-heading">All Banks</h3>
+        <h3 className="page-heading">All Banks in {city}</h3>
         <div className='all-banks-header-right-child'>
           <input 
             type="text" 
