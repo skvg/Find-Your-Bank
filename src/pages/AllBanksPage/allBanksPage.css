@@ -6,6 +6,9 @@ body{
   padding: 2rem 5%;
   background: #77A7B0;
   color: #000000;
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 .all-banks-header{
   display: flex;
