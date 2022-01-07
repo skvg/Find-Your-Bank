@@ -47,7 +47,7 @@ function AllBanksPage() {
 
         return (
           <div onClick={handleClick}>
-            <i className="fas fa-star" style={{ color: isFavorite ? 'red' : ''  }}></i>
+            <i className="fas fa-heart" style={{ color: isFavorite ? 'red' : ''  }}></i>
           </div>
         )
       }
@@ -151,7 +151,7 @@ function AllBanksPage() {
       </div>
 
       <div className='table container'>
-        <Table 
+        <Table className='data-table'
           columns={tableColumns}
           dataSource={filteredBanks}
           pagination

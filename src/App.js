@@ -5,9 +5,11 @@ import BankDetailPage from './pages/BankDetailsPage';
 import Header from './components/header/header';
 import Favorites from './pages/FavouritesPage';
 
+import './app.css'
+
 function App() {
   return (
-    <>
+    <div className='root-div'>
       <Header />
       <Switch>
       <Route path="/all-banks">
@@ -23,7 +25,7 @@ function App() {
         <Redirect to="/all-banks" />
       </Route>
     </Switch>
-    </>
+    </div>
   )
 }
 

@@ -11,7 +11,6 @@
 .pools-dropdown{
   font-size: 1rem;
   cursor: pointer;
-  border-radius: 5px;
   outline: none;
   background: #2B6670;
   color: #fff;
@@ -30,24 +29,21 @@
   top: 38px;
   display: flex;
   flex-direction: column;
-  row-gap: 1px;
 }
 .active-dropdown{
   visibility: visible;
 }
 .dropdown-item-cus{
   display: flex;
-  border-radius: 5px;
   cursor: pointer;
   background: #2B6670;
   padding: 5px;
   width: 100%;
-  color: #f8f9fa;
+  color: #F8F9FA;
   text-decoration: none;
   justify-content: center;
-  transition: ease-in-out 0.2s;
 }
 .dropdown-item-cus:hover{
-  background: #f8f9fa;
-  color: #000000;
+  background: #F8F9FA;
+  color: #F8F9FA;
 }

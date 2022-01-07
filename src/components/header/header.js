@@ -3,7 +3,7 @@ import "./headers.css";
 import { Link } from "react-router-dom";
 
 const routesMap = [
-  ["All Banks", "/all-banks"],
+  ["All-Banks", "/all-banks"],
   ["Favorites", "/favorites"]
 ]
 
