@@ -1,0 +1,75 @@
+body{
+  background: #77A7B0 !important;
+  color: #f8f9fa !important;
+}
+.wrapper{
+  padding: 2rem 10%;
+  background: #77A7B0;
+  color: #f8f9fa;
+}
+.all-banks-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.all-banks-header-right-child{
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  align-items: center;
+}
+.page-heading{
+  color: #f8f9fa;
+  font-size: 2rem;
+  margin: 0;
+  margin-left: 10px;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+}
+thead{
+  background: #2B6670 !important;
+}
+td{
+  background: #637E90 !important;
+  padding: 1rem;
+}
+th {
+  background: #2B6670 !important;
+  color: #f8f9fa !important;
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  border: none !important;
+  /* border-bottom: 1px solid #aaa; */
+}
+td, tr{
+  color: #f8f9fa;
+  text-align: center;
+  border: none !important;
+  border-bottom: 1px solid #7a7a7a !important;
+}
+tr:hover {
+  background: #2B6670 !important;
+  cursor: pointer;
+}
+td:nth-child(5){
+  font-size: 0.8rem;
+  text-align: left;
+}
+.ant-pagination-item-ellipsis{
+  color: #f8f9fa !important;
+}
+.loading{
+  text-align: center;
+}
+input{
+  outline: none;
+  color: #2B6670 !important;
+  padding: 4px 0 4px 6px;
+  border-radius: 4px;
+}
