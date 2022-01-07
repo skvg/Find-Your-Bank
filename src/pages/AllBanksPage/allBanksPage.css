@@ -28,28 +28,7 @@ body{
   margin: 0;
   margin-left: 10px;
 }
-/* table {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 100%;
-}
-thead{
-  background: #2B6670 !important;
-}
-td{
-  background: #637E90 !important;
-  padding: 1rem;
-}
-th {
-  background: #2B6670 !important;
-  color: #000000 !important;
-  font-size: 1.3rem !important;
-  font-weight: 600 !important;
-  text-align: center !important;
-  border: none !important;
-  /* border-bottom: 1px solid #aaa; */
-/* } */
+
 td, tr{
   color: #000000;
   text-align: center;
@@ -62,7 +41,7 @@ tr:hover {
 td:nth-child(5){
   font-size: 0.8rem;
   text-align: left;
-} */
+} 
 .ant-pagination-item-ellipsis{
   color: #000000 !important;
 }
