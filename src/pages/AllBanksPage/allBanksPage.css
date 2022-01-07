@@ -9,6 +9,7 @@ body{
   height: 100vh;
   overflow: scroll;
   overflow-x: hidden;
+  width: 100%;
 }
 .all-banks-header{
   display: flex;
@@ -38,10 +39,6 @@ td, tr{
 tr:hover {
   cursor: pointer;
 }
-td:nth-child(5){
-  font-size: 0.8rem;
-  text-align: left;
-} 
 .ant-pagination-item-ellipsis{
   color: #000000 !important;
 }
